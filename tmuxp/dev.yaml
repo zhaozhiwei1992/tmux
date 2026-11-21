@@ -12,6 +12,5 @@ windows:
           - nvim              # pane 0：左 nvim
       - shell_command:
           - nvm use system
-          - pi            # pane 1：右上 opencode
+          - pi            # pane 1：右上 pi
       - shell_command: []     # pane 2：右下 console(空 shell)
-
